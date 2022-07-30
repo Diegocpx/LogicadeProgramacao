@@ -1,0 +1,27 @@
+
+
+
+
+var listaDePecas = ["Pneu 175/70/13","Pára-choques","Molas","Central Multimídia"]; //array
+
+if(listaDePecas.length > 10){
+    console.log("Limite de peças atingido. Não é possível cadastrar")
+}else{
+    console.log("Cadastro de peça permitido")
+}
+
+let peso = 300
+
+if(peso < 100){
+    console.log("Cadastro Negado. Peso abaixo do permitido")
+}else{
+    console.log("Cadastro por peso permitido")
+}
+
+let peca = "Molas";
+
+if(peca.lenght < 3){
+    console.log("O nome da peça é muito pequeno")
+}else{
+    console.log("O nome da peça é válido")
+}
